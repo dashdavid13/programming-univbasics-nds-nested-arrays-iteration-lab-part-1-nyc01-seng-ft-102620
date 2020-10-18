@@ -9,7 +9,7 @@
 
 def find_even_values(src)
   src.each do |row_index|
-    first_array.each do |element_index|
+    row_index.each do |element_index|
       if element_index.even?
         p element_index
     end 
